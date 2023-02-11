@@ -1,0 +1,17 @@
+LOADING_DATA: '&6&o데이터 로딩중...'
+ERROR_LOADING: '&c&o데이터 로딩 실패'
+LOADING_SUCCESS: '&a&o데이터 로딩 성공!'
+
+NEED_STATPOINT: '&c스텟 포인트가 부족합니다'
+UP_STAT1: '&c&l공격력&f을 올렸습니다'
+UP_STAT2: '&4&l체력&f을 올렸습니다'
+UP_STAT3: '&b&l민첩&f을 올렸습니다'
+
+CRITICAL_MESSAGE: '&e&l크리티컬!'
+AVOIDING_MESSAGE: '&c&l회피!'
+
+LEVEL_UP: '&e&l레벨업! &b{0}&e레벨 달성'
+GET_EXP_ACTIONBAR: '&7&o{0} &e+EXP'
+
+PRINT_MONEY: '&f[ &e{0} &f] 님의 계좌: &b&l{1}&f원'
+PRINT_CASH: '&f[ &e{0} &f] 님의 캐시: &6&l{1}&f원'

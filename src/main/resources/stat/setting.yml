@@ -1,0 +1,59 @@
+STAT1:
+  max-value: 99999
+  ability:
+    damage: 2.0
+    health: 1.0
+    defense: 0.1
+    speed: 0
+    critical-chance: 0
+    critical-damage: 3
+    avoid-chance: 0
+STAT2:
+  max-value: 99999
+  ability:
+    damage: 0.5
+    health: 3.0
+    defense: 0.3
+    speed: 0
+    critical-chance: 0
+    critical-damage: 0
+    avoid-chance: 0.1
+STAT3:
+  max-value: 99999
+  ability:
+    damage: 0.25
+    health: 0.5
+    defense: 0.5
+    speed: 0.1
+    critical-chance: 0.1
+    critical-damage: 5
+    avoid-chance: 0.2
+
+#방어력, 이동속도, 크리티컬 확률, 크리티컬 데미지, 회피율은 퍼센트 작용
+
+exp:
+  start-level: 0
+  max-level: 20
+  start-point: 3
+  bonus-point: 3
+  exp-array:
+    0: 500
+    1: 1000
+    2: 2000
+    3: 4000
+    4: 8000
+    5: 16000
+    6: 30000
+    7: 40000
+    8: 50000
+    9: 60000
+    10: 100000
+    11: 130000
+    12: 160000
+    13: 190000
+    14: 220000
+    15: 250000
+    16: 280000
+    17: 350000
+    18: 400000
+    19: 500000

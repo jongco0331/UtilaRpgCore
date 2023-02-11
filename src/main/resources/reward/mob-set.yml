@@ -1,0 +1,4 @@
+'&fTestMob':
+  money: 1000
+  exp: 3
+  show-stand-log: true

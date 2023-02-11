@@ -1,0 +1,7 @@
+text-head: '&f[ &6JRpgCore &f] '
+MySQL:
+  address: 'localhost'
+  port: '3306'
+  database: 'database'
+  username: 'root'
+  password: 'root'

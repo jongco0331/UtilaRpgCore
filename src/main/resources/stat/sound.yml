@@ -1,0 +1,12 @@
+OPEN_GUI: #스텟 gui 오픈 사운드
+  sound: ENTITY_PLAYER_LEVELUP
+  volume: 1.0
+  pitch: 2.0
+STAT_UP:
+  sound: block_note_xylophone
+  volume: 1.0
+  pitch: 1.0
+NEED_POINT:
+  sound: block_anvil_place
+  volume: 1.0
+  pitch: 1.0

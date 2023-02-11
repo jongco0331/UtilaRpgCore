@@ -1,0 +1,73 @@
+guiArray:
+  '* * * g g g * * *
+  * * * g p g * * *
+  * * * g g g * * *
+  * * * * * * * * *
+  * 1 * * 2 * * 3 *'
+
+Events:
+  '1': STAT1
+  '2': STAT2
+  '3': STAT3
+
+Components:
+  '*':
+    material: null
+  'g':
+    material: STAINED_GLASS_PANE
+    data: 10
+    display-name: '&e'
+  'p':
+    material: ENDER_PEARL
+    display-name: '&f[ &e<player> &f]'
+    lore:
+      - '&f'
+      - '&f - &6공격력 &f+ <damage>'
+      - '&f - &6체력 &f+ <health>'
+      - '&f - &6방어력 &f+ <defense>%'
+      - '&f - &6이동속도 &f+ <speed>%'
+      - '&f - &6크리티컬 확률 &f+ <critical_chance>%'
+      - '&f - &6크리티컬 데미지 &f+ <critical_damage>%'
+      - '&f - &6회피율 &f+ <avoid_chance>%'
+      - '&f'
+      - '&f - 스텟포인트 - <point>'
+      - '&f'
+  '1':
+    material: BOOK
+    display-name: '&c공격력'
+    lore:
+      - ' &f[ &e<stat1_point> / &6<stat1_max> &f] '
+      - '&f'
+      - '&f  - [ &6Ability &f] -'
+      - '&f    +2 공격력'
+      - '&f    +1 최대 체력'
+      - '&f    +0.1 방어력(%)'
+      - '&f    +3 크리티컬 데미지(%)'
+      - '&f'
+  '2':
+    material: BOOK
+    display-name: '&4체력'
+    lore:
+      - ' &f[ &e<stat2_point> / &6<stat2_max> &f] '
+      - '&f'
+      - '&f  - [ &6Ability &f] -'
+      - '&f    +0.5 공격력'
+      - '&f    +3.0 최대 체력'
+      - '&f    +0.3 방어력(%)'
+      - '&f    +0.1 회피율(%)'
+      - '&f'
+  '3':
+    material: BOOK
+    display-name: '&b민첩'
+    lore:
+      - ' &f[ &e<stat3_point> / &6<stat3_max> &f] '
+      - '&f'
+      - '&f  - [ &6Ability &f] -'
+      - '&f    +0.25 공격력'
+      - '&f    +0.5 최대 체력'
+      - '&f    +0.5 방어력(%)'
+      - '&f    +0.1 이동속도(%)'
+      - '&f    +0.1 크리티컬 확률(%)'
+      - '&f    +5 크리티컬 데미지(%)'
+      - '&f    +0.2 회피율(%)'
+      - '&f'

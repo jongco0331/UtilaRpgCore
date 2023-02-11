@@ -1,0 +1,28 @@
+name: UtilaRpgCore
+version: '${version}'
+main: com.ut.rpg.core.Main
+authors: [ Utila ]
+depend:
+  - ProtocolLib
+commands:
+  jrcloader:
+    aliases: jrcl
+  dbitem:
+    aliases: di
+  itemdata:
+  스텟:
+    aliases:
+      - stat
+      - tmxpt
+  돈:
+    aliases:
+      - ehs
+      - money
+      - 계좌
+  캐시:
+    aliases:
+      - cash
+      - 캐쉬
+      - zotl
+  돈관리:
+  캐시관리:
